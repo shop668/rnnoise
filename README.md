@@ -1,4 +1,5 @@
-## 为新版本的RNNoise添加了cmake,参考下述步骤进行编译
+## 为新版本的RNNoise添加了cmake,参考下述步骤进行编译(Added cmake to the new version of RNNoise, please refer to the following steps for compilation)
+
 ### Linux
 ```shell
 %./autogen.sh
@@ -17,7 +18,7 @@
 % make -j 4
 ```
 
-##### ----------------------------------------------------------------------------------
+##### -----------------------------------------------------------------------------------------------------
 ```shell
 RNNoise is a noise suppression library based on a recurrent neural network.
 A description of the algorithm is provided in the following paper:
