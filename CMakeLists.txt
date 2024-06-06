@@ -2,14 +2,10 @@ cmake_minimum_required(VERSION 3.16)
 project(rnnoise) 
 
 cmake_policy(SET CMP0054 NEW)
-#set(SOURCE_DIR src)
-set(CMAKE_CXX_STANDARD 17) # 设置C++标准为C++17
-
+set(CMAKE_CXX_STANDARD 17) 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-
-
 
 include_directories("${PROJECT_SOURCE_DIR}/include")
 include_directories("${PROJECT_SOURCE_DIR}/src")
