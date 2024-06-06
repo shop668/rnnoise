@@ -1,4 +1,4 @@
-## 支持Linux以及Windows编译的RNNoise (RNNoise for Linux and Windows)
+## 鏀寔Linux浠ュ強Windows缂栬瘧鐨凴NNoise (RNNoise for Linux and Windows)
 
 ### Linux
 ```shell
